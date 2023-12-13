@@ -1,0 +1,113 @@
+.all1 {
+  padding: 20px;
+}
+
+.all {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.first {
+  flex-basis: 100%;
+ 
+}
+
+.second {
+  flex-basis: 100%;
+  margin-top: 20px;
+
+  
+}
+
+.i2 {
+
+  text-align: justify;
+}
+
+.i3 {
+  text-align: justify;
+}
+
+
+
+.bu1 {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+
+
+.i1 {
+  flex-basis: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .first {
+    flex-basis: 48%;
+  }
+
+  .second {
+    flex-basis: 48%;
+   
+  }
+
+  .i1 {
+    flex-basis: 48%;
+  }
+}
+
+@media (min-width: 992px) {
+  .first {
+    flex-basis: 30%;
+  }
+
+  .second {
+    flex-basis: 65%;
+  }
+
+  .i1 {
+    flex-basis: 30%;
+  }
+}
+
+input{
+  padding: 7px;
+  border-radius: 4px;
+  margin-top: -20px;
+  background-color: transparent;
+}
+.ib{
+  padding: 1px;
+  border-radius: 4px;
+  width: 150px;
+  margin-top: 8px;
+
+}
+.in2{
+  padding: 7px;
+  border-radius: 4px
+}
+.bu1{
+  margin-left: 5px;
+  background-color: transparent;
+}
+button{
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+button:hover{
+  color: blue;
+  border-color: rgb(0, 255, 242);
+}
